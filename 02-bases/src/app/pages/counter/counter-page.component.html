@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Counter Page Component</title>
+  </head>
+  <body>
+    <h1>Hola mundo</h1>
+    <h2>CounterComponent Page</h2>
+    <h3>Counter: {{ counter }}</h3>
+    <h3>Counter Signal: {{ counterSignal() }}</h3>
+    <button (click)="increaseBy(1)">+1</button>
+    <button (click)="decreaseBy(1)">-1</button>
+    <button (click)="resetCounter()">Reset</button>
+  </body>
+</html>
