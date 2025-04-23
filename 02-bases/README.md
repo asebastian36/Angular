@@ -247,3 +247,13 @@ Ambos conceptos están diseñados para hacer que Angular sea más rápido y efic
 - **Readonly Signals**: Son señales de solo lectura que permiten exponer un estado de forma segura sin permitir su modificación externa.
 
 Ambas son herramientas poderosas para gestionar el estado de manera eficiente y predecible en Angular.
+
+## Creacion de un componente en `Angular`
+
+Crea el componente `navbar` en la carpeta app, incluye el `.ts`, `.html`, `.css` y `spec.ts`.
+
+> Retorna la carpeta y se necesita estar en la raiz del proyecto.
+
+```shell
+ng g c navbar
+``` 
